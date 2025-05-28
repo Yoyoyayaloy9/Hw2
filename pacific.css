@@ -1,0 +1,113 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+/* Body with gradient + solid background */
+body {
+    background-image: url("ptrbackground.jpg");
+    background-repeat: no-repeat;
+    background-color: #00569f;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Centered wrapper */
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* Header with banner image */
+header {
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* Navigation bar styling */
+nav {
+    float: left;
+    width: 160px;
+    background-color: #90C7E3;
+    padding: 20px;
+}
+
+/* Navigation list (no bullets) */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 5px;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Main content section */
+#content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+/* Only apply custom bullets to content list */
+#content ul {
+    list-style-image: url("marker.gif");
+    padding-left: 20px;
+}
+
+/* Resort name special style */
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h2 {
+    color: #3399CC;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Contact info block */
+#contact {
+    font-size: 90%;
+}
+
+/* Optional: Definition list (unused in this file) */
+dt {
+    color: #000033;
+}
+
+/* Footer */
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
